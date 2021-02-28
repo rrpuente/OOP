@@ -61,7 +61,7 @@ class CompanyX:
 
 if __name__ == '__main__':
     company = CompanyX()
-    #model_year, type, price_per_day, fuel
+   
     car1 = Car('2010', CarType.SEDAN, 25.0, Fuel.DIESEL)
     car2 = Car('2011', CarType.SEDAN, 22.0, Fuel.PETROL)
     car3 = Car('2010', CarType.BAKKIE, 35.0, Fuel.DIESEL)
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     company.add_car(car3)
 
     print ('Is there a bakkie: ', company.is_there_a_specific_type_of_car(CarType.BAKKIE))
-    print ('Is there a SUV: ', company.is_there_a_specific_type_of_car(CarType.SUV))
+    print ('Is there a SUV:s ', company.is_there_a_specific_type_of_car(CarType.SUV))
     print ('Is there a sedan: ', company.is_there_a_specific_type_of_car(CarType.SEDAN))
 
 
