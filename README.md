@@ -1,5 +1,5 @@
 # Car rental service
-Company X has a car rental service. The business knows for each of the 100 cars the model year, type of the car, the price per day and if the car uses petrol or diesel.
+Company X has a car rental service. The business knows for each of the 100 cars the following:  year model, type of the car, the price per day and if the car uses petrol or diesel.
 
 a)  Identify the class (or classes) that models this situation using the Object-Oriented Paradigm. 
 b)  Implement the identified class (or classes).
