@@ -1,8 +1,9 @@
 # return the factorial of n
 def factorial(n):
     f = 1
-    for i in range (1,n+1):
-        f = f * i
+    while n>1:
+        f = f * n
+        n = n -1
     return f
 #return the binomial coeficient
 def binomial_coeficient(n, k):
@@ -35,5 +36,5 @@ def print_pascal_triangle(n):
 
 
 if __name__ == '__main__':
-    n = 5
+    n = 10
     print_pascal_triangle(n)
