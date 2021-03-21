@@ -6,7 +6,7 @@ def factorial(n):
         n = n -1
     return f
 #return the binomial coeficient
-def binomial_coeficient(n, k):
+def binomial_coefficient(n, k):
     return factorial(n)/(factorial(k)*factorial(n-k))
 
 # here I will asume that the bigest value we are going to generate for the
